@@ -41,26 +41,27 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: 'rgba(0,0,0,0.6)',
+        backgroundColor: 'rgba(0,0,0,0.5)'
     },
     container: {
         backgroundColor: '#EEE',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: 15,
+        padding: 15
     },
     title: {
         fontSize: 30,
-        fontWeight: 'bold',
+        fontWeight: 'bold'
     },
     button: {
         marginTop: 10,
         padding: 5,
+        borderRadius: 10
     },
     buttonLabel: {
         fontSize: 20,
         color: '#EEE',
-        fontWeight: 'bold',
+        fontWeight: 'bold'
     },
     bgEasy: {
         backgroundColor: '#49b65d'

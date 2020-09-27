@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     },
     flagButton: {
         marginTop: 10,
-        minWidth: 30
+        minWidth: 30,
     }, 
     flagsLeft: {
         fontSize: 30,
@@ -51,7 +51,8 @@ const styles = StyleSheet.create({
     }, 
     button: {
         backgroundColor: '#999',
-        padding: 5
+        padding: 5,
+        borderRadius: 10
     }, 
     buttonLabel: {
         fontSize: 20,
