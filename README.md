@@ -11,7 +11,7 @@
 
 ## 📅 Sobre
 
-Jogo desenvolvido com o conteúdo apresentado no curso de React Native da cod3r.com.br.
+Jogo desenvolvido com o conteúdo apresentado no curso de React Native da [cod3r.com.br](https://www.cod3r.com.br/)
 
 <p align="center">
   <img src="github/gifGameOver.gif" alt="Demo" >
