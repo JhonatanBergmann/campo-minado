@@ -1,4 +1,5 @@
 <h1 align="center">
+  <img src="github/icon.png" width="200" height="200" alt="icon" >
   <br>
   Campo Minado
   <br>
