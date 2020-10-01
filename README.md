@@ -56,7 +56,3 @@ iOS:
 ```sh
 react-native run-ios
 ```
-
-<p align="center">
- by Jhonatan Bergmann
-</p>
