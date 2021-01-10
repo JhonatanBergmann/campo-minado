@@ -16,7 +16,7 @@ import {
   hadExplosion,
   wonGame,
   showMines,
-  invertFlag, 
+  invertFlag,
   flagUsed
 } from './src/functions'
 
@@ -32,7 +32,7 @@ export default class App extends Component {
     const rows = params.getRowsAmount()
     return Math.ceil(cols * rows * params.difficultLevel)
   }
-  
+
   createState = () => {
     const cols = params.getColumnsAmount()
     const rows = params.getRowsAmount()
@@ -55,19 +55,19 @@ export default class App extends Component {
       Alert.alert('Perdeeeeu', 'Que buuuuuurro!')
     }
 
-    if(won) {
+    if (won) {
       Alert.alert('Parabéns', 'Você Venceu!')
     }
 
     this.setState({ board, lost, won })
   }
 
-  onSelectField =  (row, column) => {
+  onSelectField = (row, column) => {
     const board = cloneBoard(this.state.board)
     invertFlag(board, row, column)
     const won = wonGame(board)
 
-    if(won) {
+    if (won) {
       Alert.alert('Parabéns', 'Você Venceu!')
     }
 
@@ -85,14 +85,14 @@ export default class App extends Component {
         <LevelSelection isVisible={this.state.showLevelSelection}
           onLevelSelected={this.onLevelSelected}
           onCancel={() => this.setState({ showLevelSelection: false })} />
-        <Header flagsLeft={this.minesAmount() - flagUsed(this.state.board)} 
+        <Header flagsLeft={this.minesAmount() - flagUsed(this.state.board)}
           onNewGame={() => this.setState(this.createState())}
-          onFlagPress={() => this.setState({ showLevelSelection: true })}/>
-          <View style={styles.board}>
-            <MineField board={this.state.board} 
-              onOpenField={this.onOpenField} 
-              onSelectField={this.onSelectField} />
-          </View>
+          onFlagPress={() => this.setState({ showLevelSelection: true })} />
+        <View style={styles.board}>
+          <MineField board={this.state.board}
+            onOpenField={this.onOpenField}
+            onSelectField={this.onSelectField} />
+        </View>
       </View>
     )
   }

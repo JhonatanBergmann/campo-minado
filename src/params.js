@@ -12,7 +12,7 @@ const params = {
     },
     getRowsAmount() {
         const totalHeigth = Dimensions.get('window').height
-        const boardHeigth = totalHeigth * (1- this.headerRatio)
+        const boardHeigth = totalHeigth * (1 - this.headerRatio)
         return Math.floor(boardHeigth / this.blockSize)
     }
 }
