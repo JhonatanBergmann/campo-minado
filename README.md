@@ -5,18 +5,18 @@
   <br>
 </h1>
 
-<p align="center">Jogo Campo Minado</p>
+<p align="center">Campo Minado Game</p>
 
 <br>
-
-## 📅 Sobre
-
-Jogo desenvolvido com o conteúdo apresentado no curso de React Native da [cod3r.com.br](https://www.cod3r.com.br/)
 
 <p align="center">
   <img src="github/gifGameOver.gif" alt="Demo" >
   <img src="github/gifLevel.gif" alt="Demo" >
 </p>
+
+## 📅 Sobre
+
+Jogo desenvolvido com o conteúdo apresentado no curso de React Native da [cod3r.com.br](https://www.cod3r.com.br/)
 
 ## 🛠 Tecnologias
 - [React Native](https://facebook.github.io/react-native/)
@@ -56,3 +56,7 @@ iOS:
 ```sh
 react-native run-ios
 ```
+
+<p align="center">
+ Feito com 💜 by Jhonatan Bergmann
+</p>
