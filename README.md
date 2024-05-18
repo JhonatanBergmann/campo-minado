@@ -16,12 +16,11 @@
 
 ## 📅 Sobre
 
-Jogo desenvolvido com o conteúdo apresentado no curso de React Native da [cod3r.com.br](https://www.cod3r.com.br/)
+Campo minado é um popular jogo de computador para um jogador. Foi inventado por Robert Donner em 1989 e tem como objectivo revelar um campo de minas sem que alguma seja detonada.
 
 ## 🛠 Tecnologias
 - [React Native](https://facebook.github.io/react-native/)
 - [Javascript](https://devdocs.io/javascript/)
-- [Node](https://nodejs.org/en/)
 
 ## 📱 Executando 
 
